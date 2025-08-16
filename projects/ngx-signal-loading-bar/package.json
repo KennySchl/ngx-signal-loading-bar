@@ -1,8 +1,16 @@
 {
   "name": "ngx-signal-loading-bar",
   "description": "A lightweight, signal-based, zoneless loading bar for Angular 20. Tracks HTTP requests via HttpClient and provides a reactive progress bar component with standalone components and interceptors.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KennySchl/ngx-signal-loading-bar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KennySchl/ngx-signal-loading-bar/issues"
+  },
+  "homepage": "https://github.com/KennySchl/ngx-signal-loading-bar#readme",
   "peerDependencies": {
     "@angular/common": "^20.1.0",
     "@angular/core": "^20.1.0"

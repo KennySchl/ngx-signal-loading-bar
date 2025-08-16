@@ -2,7 +2,7 @@
 
 A lightweight, **signal-based, zoneless loading bar for Angular 20**. Tracks HTTP requests via `HttpClient` and provides a reactive progress bar component with **standalone components and interceptors**.
 
-![npm](https://img.shields.io/npm/v/ngx-signal-loading-bar) ![license](https://img.shields.io/npm/l/ngx-signal-loading-bar)
+![npm](https://img.shields.io/npm/v/ngx-signal-loading-bar) ![NPM License](https://img.shields.io/npm/l/ngx-signal-loading-bar)
 
 ---
 
