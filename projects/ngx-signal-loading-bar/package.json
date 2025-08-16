@@ -8,5 +8,17 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "keywords": [
+    "angular",
+    "angular16",
+    "signals",
+    "loading-bar",
+    "ngx",
+    "angular-library",
+    "progress-bar",
+    "http-interceptor",
+    "zoneless",
+    "typescript"
+  ]
 }
