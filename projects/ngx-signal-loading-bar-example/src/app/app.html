@@ -6,3 +6,15 @@
 <div style="margin-top: 20px">
   <button (click)="makeRequest()">Test Single Request</button>
 </div>
+
+<div style="margin-top: 20px">
+  <button (click)="makeMultipleSimultaneousRequests()">Test Multiple Simultaneous Requests</button>
+</div>
+
+<div style="margin-top: 20px">
+  <button (click)="makeMultipleSequentialRequests()">Test Multiple Sequential Requests</button>
+</div>
+
+<div style="margin-top: 20px">
+  <button (click)="makeInvalidRequestToTestRetry()">Test Invalid Retry Request</button>
+</div>
