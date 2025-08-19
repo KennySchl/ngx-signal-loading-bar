@@ -10,6 +10,7 @@ export interface LoadingBarConfig {
 
   /**
    * Timeout in milliseconds before the loading bar automatically completes.
+   * Set to 0 to skip timeout logic.
    * @default 30000
    */
   timeoutMS?: number;

@@ -1,14 +1,14 @@
 import {
-  HTTP_INTERCEPTORS,
   HttpContextToken,
   HttpEvent,
   HttpHandlerFn,
   HttpRequest,
 } from '@angular/common/http';
-import { inject, Provider } from '@angular/core';
+import { inject } from '@angular/core';
 import {
   catchError,
   finalize,
+  identity,
   Observable,
   tap,
   throwError,
@@ -37,7 +37,7 @@ export function loadingInterceptor(
   let hasStarted = false;
 
   return next(request).pipe(
-    timeout(TIMEOUT_MS),
+    TIMEOUT_MS > 0 ? timeout(TIMEOUT_MS) : identity,
     tap(() => {
       if (!hasStarted) {
         loadingService.startLoading();
